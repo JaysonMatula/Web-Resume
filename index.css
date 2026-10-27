@@ -13,3 +13,9 @@
         padding: 20px;
     }
 }
+
+h2 {
+    border-bottom: 1px solid black;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+}
