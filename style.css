@@ -7,11 +7,16 @@ body {
     width: 100%;
     max-width: 8.5in;
     margin: 0 auto;
+}
+.page {
+    background-color: white;
     padding: 0.55in 0.65in;
     box-sizing: border-box;
-    background-color: white;
     border: 1px solid #cccccc;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+.page + .page {
+    margin-top: 20px;
 }
 header {
     text-align: center;
@@ -23,7 +28,6 @@ header {
     margin-bottom: 4px;
     margin-top: 0;
 }
-
 .contact {
     border-bottom: 1px solid black;
     padding-bottom: 4px;
@@ -51,10 +55,26 @@ h2 {
         background: white;
         padding: 0;
     }
+
 .container {
     background-color: white;
     border: none;
     box-shadow: none;
     margin: 0 auto;
+    }
+.page {
+    border: none;
+    box-shadow: none;
+    break-after: page;
+    page-break-after: always;
+    }
+
+.page:last-child {
+    break-after: auto;
+    page-break-after: auto;
+}
+
+.page + .page {
+    margin-top: 0;
     }
 }
