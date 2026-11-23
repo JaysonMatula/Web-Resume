@@ -4,7 +4,9 @@
     margin: 0 auto;
     padding: 0.55in 0.65in;
     box-sizing: border-box;
-    text-align:; center;
+}
+header {
+    text-align: center;
 }
 
 ul {
