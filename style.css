@@ -11,12 +11,16 @@ header {
 
 .name {
     border-bottom: 1px solid black;
-    padding-bottom: 8px;
+    padding-bottom: 3px;
+    margin-bottom: 4px;
+    margin-top: 0;
 }
 
 .contact {
     border-bottom: 1px solid black;
-    padding-bottom: 10px;
+    padding-bottom: 4px;
+    margin-top: 0;
+    margin-bottom: 8px;
 }
 
 ul {
