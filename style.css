@@ -7,11 +7,16 @@ body {
     width: 100%;
     max-width: 8.5in;
     margin: 0 auto;
+}
+.page {
+    width: 100%;
+    min-height: 11in;
     padding: 0.55in 0.65in;
     box-sizing: border-box;
     background-color: white;
     border: 1px solid #cccccc;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
 }
 header {
     text-align: center;
@@ -51,10 +56,14 @@ h2 {
         background: white;
         padding: 0;
     }
-.container {
-    background-color: white;
+.page {
     border: none;
     box-shadow: none;
-    margin: 0 auto;
-    }
+    margin: 0;
+    break-after: page;
+}
+
+.page:last-child {
+    break-after: auto;
+}
 }
