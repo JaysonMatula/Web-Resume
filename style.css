@@ -11,6 +11,7 @@ body {
 .page {
     background-color: white;
     padding: 0.55in 0.65in;
+    min-height: 11in;
     box-sizing: border-box;
     border: 1px solid #cccccc;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
