@@ -9,6 +9,16 @@ header {
     text-align: center;
 }
 
+.name {
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+}
+
+.contact {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
 ul {
     list-style-position: inside;
     padding-left: 0;
